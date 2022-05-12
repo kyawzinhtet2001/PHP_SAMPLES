@@ -8,6 +8,7 @@ interface Calculate
 
 class BadFactory
 {
+    public static $p;
     public static function GetOperator(string $Operator): Calculate
     {
         switch ($Operator) {
