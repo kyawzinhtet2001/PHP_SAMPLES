@@ -13,3 +13,14 @@
 
     $real_array[1]=2;
     print_r($real_array);
+
+
+    $new_fumtom=array_filter([1,2,3,4],function(int $value){
+        return $value>=3;
+    });
+    var_dump($new_fumtom);
+    unset($new_fumtom);
+    $new_fumtom=array_map(function(int $value){
+        return $value*3;
+    },[1,2,3,4]);
+    var_dump($new_fumtom);
