@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload Form</title>
+</head>
+
+<body>
+    <form action="file_upload.php" enctype="multipart/form-data" method="post">
+        <h2>File Upload</h2>
+        <div>
+            <label for="file_upload">Upload FileName &nbsp; : &nbsp;</label>
+            <input type="file" name="file_upload" id="file_upload" multiple>
+        </div>
+        <input type="submit" name="submit" value="submit">
+    </form>
+    <p><strong>Notice &nbsp; : </strong>&nbsp; You need to Upload the image ".jpeg,.jpg,.png,.gif" formats not more than 5MB...</p>
+</body>
+
+</html>
