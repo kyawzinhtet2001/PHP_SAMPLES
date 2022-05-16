@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <table style="height:240px;">
+    <table style="height:240px;" class='m-1'>
         <?php
 
         for ($i = 0; $i < 8; $i++) {
@@ -20,15 +20,15 @@
 
                 if ($i % 2 != 0) {
                     if ($j % 2 == 0) {
-                        echo '<td class="bg-light" style="height:30px; width:30px;"></td>';
+                        echo '<td class="bg-light p-1" style="height:30px; width:30px;"></td>';
                     } else {
-                        echo "<td class='bg-dark' style='height:30px; width:30px;'></td>";
+                        echo "<td class='bg-dark p-1' style='height:30px; width:30px;'></td>";
                     }
                 } else {
                     if ($j % 2 == 0) {
-                        echo "<td class='bg-dark' style='height:30px; width:30px;'></td>";
+                        echo "<td class='bg-dark p-1' style='height:30px; width:30px;'></td>";
                     } else {
-                        echo '<td class="bg-light" style="height:30px; width:30px;"></td>';
+                        echo '<td class="bg-light p-1" style="height:30px; width:30px;"></td>';
                     }
                 }
             }
