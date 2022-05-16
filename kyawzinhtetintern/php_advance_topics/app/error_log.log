@@ -1,0 +1,7 @@
+Error : [ 512 ]  Divied function : the divisor cannot be zero in  C:\xampp\htdocs\kyawzinhtet\kyawzinhtetintern\php_advance_topics\error_handling.php on  line  5  
+ Variables: Array
+(
+    [a] => 100
+    [b] => 0
+)
+  
