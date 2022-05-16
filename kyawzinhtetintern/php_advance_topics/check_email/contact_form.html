@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Contact Us</h2>
+    <h3>Please fill this form and send us</h3>
+    <form action="./post_email.php" method="post">
+        <div>
+            <label for="inputName">Name</label>
+            <input type="text" name="inputName">
+        </div>
+        <div>
+            <label for="inputEmail">Email<sup>*</sup></label>
+            <input type="email" name="inputEmail" id="inputEmail">
+        </div>
+        <div>
+            <label for="inputSubject">Subject</label>
+            <input type="text" name="inputSubject" id="inputSubject">
+        </div>
+        <div>
+            <label for="message">Message<sup>*</sup></label>
+            <textarea  name="inputMessage" id="message"></textarea>
+        </div>
+        <input type="submit" value="send Email" name="submit">
+        <input type="reset" value="Reset" value="reset the form">
+    </form>
+
+    
+</body>
+</html>
